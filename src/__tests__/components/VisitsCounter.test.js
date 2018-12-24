@@ -3,7 +3,6 @@ import { shallow, mount } from 'enzyme';
 import VisitsCounter from '../../components/VisitsCounter';
 import { mockData, mockFunctions } from '../../__mocks__/data';
 
-
 describe('Visits Counter component', () => {
    it('should correctly render Visits Counter component', () => {
     const { notEmptyVisits: { visits: [visit] } } = mockData;

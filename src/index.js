@@ -7,6 +7,7 @@ import { ServerUnreachable } from './components/ServerUnreachable';
 const root = document.getElementById('root');
 const pingAndRender = async () => {
   try {
+    // Si no falla el fetch significa que el servidor está activo
     await fetch(process.env.REACT_APP_GRAPHQL_SERVER);
     render(App, root);
   } catch (error) {

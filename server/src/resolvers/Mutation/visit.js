@@ -4,7 +4,6 @@ const visit = {
   },
   async updateVisit(parent, { id }, context) {
     const { count } = await context.prisma.visit({ id });
-
     return context.prisma.updateVisit({ where: { id }, data: { count: count + 1 } });
   }
 };

@@ -4,5 +4,4 @@ const Mutation = {
   ...visit
 };
 
-
 module.exports = { Mutation };

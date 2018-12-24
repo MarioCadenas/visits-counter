@@ -53,6 +53,6 @@ describe('Visits Component', () => {
         updateVisit={updateVisit}
       />
     );
-    expect(mockFunctions.updateVisit).toHaveBeenCalledWith({ variables: { id: notEmptyVisits.visits[0].id } });
+    expect(updateVisit).toHaveBeenCalledWith({ variables: { id: notEmptyVisits.visits[0].id } });
   });
 });
