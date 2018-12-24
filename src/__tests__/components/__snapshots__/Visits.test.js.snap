@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Visits Component should correctly render visit component when loading 1`] = `<Loader />`;
+
+exports[`Visits Component should correctly render visit component when not loading 1`] = `
+<VisitsCounter
+  createVisit={[MockFunction]}
+  updateVisit={[MockFunction]}
+  visit={
+    Object {
+      "count": 5,
+      "id": "123",
+    }
+  }
+/>
+`;

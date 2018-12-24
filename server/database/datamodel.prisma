@@ -1,0 +1,4 @@
+type Visit {
+  id: ID! @id
+  count: Int!
+}
